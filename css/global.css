@@ -12,9 +12,9 @@
 --primaryColor: #2396dc;
 
 /* var(--secondaryColor) !important; */
---primaryColor: #2339dc;
+--secondaryColor: #2339dc;
 
 /* var(--accentColor) !important; */
---primaryColor: #23dcc6;
+--accentColor: #23dcc6;
 
 }
