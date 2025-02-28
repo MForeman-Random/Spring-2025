@@ -14,3 +14,8 @@ p {
     background-color: var(--secondaryColor) !important;
     padding: 60px;
 }
+
+.paragraph-one {
+    position: relative;
+    float: right;
+}
