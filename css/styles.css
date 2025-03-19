@@ -15,6 +15,11 @@ p {
     padding: 60px;
 }
 
+.blinn-footer-container {
+    background-color: var(--secondaryColor) !important;
+    padding: 30px;
+}
+
 .paragraph-one-img {
     position: relative;
     float: right;
