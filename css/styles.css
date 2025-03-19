@@ -20,6 +20,11 @@ p {
     padding: 30px;
 }
 
+.blinn-foot-icon {
+    font-size: 50px;
+    color: #ffffff;
+}
+
 .paragraph-one-img {
     position: relative;
     float: right;
