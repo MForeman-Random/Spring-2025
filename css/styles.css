@@ -10,6 +10,10 @@ p {
     color: #ffffff;
 }
 
+.blinn-fa-icon a {
+    color: #ffffff;
+}
+
 .blinn-fa-container {
     background-color: var(--secondaryColor) !important;
     padding: 60px;
