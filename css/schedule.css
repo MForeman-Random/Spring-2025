@@ -33,7 +33,7 @@
 
 .content-table thead tr th {
   background-color: var(--primaryColor) !important;
-  color: white;
+  color: #ffffff;
 }
 
 .content-table th,
