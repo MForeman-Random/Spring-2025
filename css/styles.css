@@ -29,8 +29,11 @@ p {
   color: #ffffff;
 }
 
-.paragraph-one-img {
+.paragraph-one {
   background-color: pink;
+}
+
+.paragraph-one-img {
   position: relative;
   float: right;
   max-width: 350px;
