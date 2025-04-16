@@ -30,6 +30,7 @@ p {
 }
 
 .paragraph-one-img {
+  background-color: pink;
   position: relative;
   float: right;
   max-width: 350px;
