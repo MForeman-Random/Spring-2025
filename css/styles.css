@@ -46,7 +46,7 @@ p {
   clip-path: polygon(0 0, 0 30%, 100% 0);
   position: relative;
   margin-top: -5px;
-  margin-bottom: -30px;
+  margin-bottom: -70px;
 }
 
 .cropped {
