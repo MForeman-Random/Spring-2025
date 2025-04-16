@@ -1,57 +1,57 @@
-@import 'global.css';
-@import 'main.css';
+@import "global.css";
+@import "main.css";
 
 p {
-    font-family: var(--fontFamily) !important;
+  font-family: var(--fontFamily) !important;
 }
 
 .blinn-fa-icon {
-    font-size: 80px;
-    color: #ffffff;
+  font-size: 80px;
+  color: #ffffff;
 }
 
 .blinn-fa-container a {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .blinn-fa-container {
-    background-color: var(--secondaryColor) !important;
-    padding: 60px;
+  background-color: var(--secondaryColor) !important;
+  padding: 60px;
 }
 
 .blinn-footer-container {
-    background-color: var(--primaryColor) !important;
-    padding: 30px;
+  background-color: var(--primaryColor) !important;
+  padding: 30px;
 }
 
 .blinn-foot-icon {
-    font-size: 60px;
-    color: #ffffff;
+  font-size: 60px;
+  color: #ffffff;
 }
 
 .paragraph-one-img {
-    position: relative;
-    float: right;
-    max-width: 350px;
-    width: 100%;
-    height: auto;
-    padding-left: 15px;
+  position: relative;
+  float: right;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  padding-left: 15px;
 }
 
 #custom-clip-path {
-    width: 100%;
-    height: 280px;
-    background-color: var(--secondaryColor) !important;
-    clip-path: polygon(0 0, 0 30%, 100% 0);
-    position: relative;
-    margin-top: -5px;
+  width: 100%;
+  height: 280px;
+  background-color: var(--secondaryColor) !important;
+  clip-path: polygon(0 0, 0 30%, 100% 0);
+  position: relative;
+  margin-top: -5px;
 }
 
 .cropped {
-    width: 250px;
-    height: 250px;
-    margin-top: 15px;
-    border: 10px solid var(--accentColor) !important;
-    border-radius: 50%;
-    clip-path: circle(50% at 50% 50%);
+  width: 250px;
+  height: 250px;
+  margin-top: 15px;
+  border: 10px solid var(--accentColor) !important;
+  border-radius: 50%;
+  clip-path: circle(50% at 50% 50%);
 }
