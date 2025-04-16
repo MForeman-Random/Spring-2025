@@ -37,6 +37,52 @@
               <input type="text" id="first-name" name="firstName" />
             </div>
 
+            <!-- last name -->
+            <div>
+              <label for="last-name">First Name</label>
+              <input type="text" id="last-name" name="lastName" />
+            </div>
+
+            <!-- Age - number -->
+            <div>
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="18" max="120" />
+            </div>
+
+            <!-- Email - email -->
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" />
+            </div>
+
+            <!-- phone -  -->
+            <div>
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" placeholder="(###) ###-####" />
+            </div>
+
+            <!-- Start Date - date -->
+            <div>
+              <label for="start-date">Start Date</label>
+              <input type="date" name="startDate" required />
+            </div>
+
+            <!-- Tshirt - Select field -->
+            <div>
+              <label for="t-shirt">T-Shirt Size</label>
+              <select id="t-shirt" required>
+                <option value="">Select Tshirt size</option>
+                <option value="XXS">XXS</option>
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+              </select>
+              <input type="text" name="custom" placeholder="Please input a custom size" disabled />
+            </div>
+
             <!-- submit button -->
             <div>
               <input type="submit" name="submit" value="Volunteer Now" />
@@ -62,6 +108,9 @@
 
       <!-- Local JavaScript -->
       <script src="js/scripts.js"></script>
+
+      <!-- local js file for form -->
+      <script src="js/form.js"></script>
     </section>
   </body>
 </html>
