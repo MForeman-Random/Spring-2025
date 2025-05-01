@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 /* Colors */
 
@@ -10,17 +9,15 @@
 */
 
 :root {
+  /* var(--primaryColor) !important; */
+  --primaryColor: #155a84;
 
-/* var(--primaryColor) !important; */
---primaryColor: #2396dc;
+  /* var(--secondaryColor) !important; */
+  --secondaryColor: #2339dc;
 
-/* var(--secondaryColor) !important; */
---secondaryColor: #2339dc;
+  /* var(--accentColor) !important; */
+  --accentColor: #0b6056;
 
-/* var(--accentColor) !important; */
---accentColor: #23dcc6;
-
-/* var(--fontFamily) !important; */
---fontFamily: "Lora", serif;
-
+  /* var(--fontFamily) !important; */
+  --fontFamily: "Lora", serif;
 }
