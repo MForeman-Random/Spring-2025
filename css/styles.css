@@ -1,6 +1,11 @@
 @import "global.css";
 @import "main.css";
 
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000000 !important;
+}
+
 p {
   font-family: var(--fontFamily) !important;
 }
@@ -8,6 +13,10 @@ p {
 .blinn-fa-icon {
   font-size: 80px;
   color: #ffffff;
+}
+
+.blinn-fa-icon:hover {
+  transform: scale(1.1);
 }
 
 .blinn-fa-container a {
@@ -56,4 +65,9 @@ p {
   border: 10px solid var(--accentColor) !important;
   border-radius: 50%;
   clip-path: circle(50% at 50% 50%);
+}
+
+.headshots {
+  position: relative;
+  margin-bottom: 20px;
 }
